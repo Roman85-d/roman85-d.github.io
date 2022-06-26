@@ -1,0 +1,383 @@
+@font-face {
+  font-family: 'magraregular';
+  src: url('assets/fonts/magra-regular-webfont.woff2') format('woff2'),
+    url('assets/fonts/magra-regular-webfont.woff') format('woff'),
+    url('assets/fonts/magra-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  position: relative;
+  width: 1440px;
+  height: 3800px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 1440px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(242, 120, 92, 0.7);
+  z-index: 1;
+}
+
+.logo-company {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 42px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: 'Red Hat Text', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.17px;
+  color: #FFFFFF;
+  transition: 1s;
+}
+
+.menu a:hover {
+  color: #3b60cc;
+  text-decoration: underline;
+}
+
+.h2head {
+  font-family: 'Magra', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.hlog {
+  font-family: 'Red Hat Text', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.blog {
+  background: #0D606F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  Width: 103px;
+  Height: 41px;
+  outline: none;
+  border: none;
+  font-family: 'Red Hat Text', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: 2s;
+}
+
+.blog:hover,
+.bplan:hover,
+.btfind:hover {
+  cursor: pointer;
+  background: #7b0e99;
+}
+
+.h1preview {
+  font-family: 'Aleo', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: #FFFFFF;
+}
+
+.ppreview {
+  font-family: 'Aleo';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.fon {
+  position: absolute;
+  width: 1440px;
+  height: 765px;
+  left: 0px;
+  top: 0px;
+}
+
+.fon1 {
+  position: absolute;
+  width: 1440px;
+  height: 1440px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.fon2 {
+  position: absolute;
+  width: 1440px;
+  height: 1360px;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.hsteps {
+  font-family: 'Red Hat Text', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #F2785C;
+}
+
+.stepsp {
+  font-family: 'Aleo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+.stories-image-text {
+  position: absolute;
+  width: 1440px;
+  height: 1420px;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+}
+
+.image,
+.text {
+  padding: 20px;
+  text-align: left;
+}
+
+.image img {
+  border-radius: 16px;
+}
+
+.image-text {
+  display: flex;
+}
+
+.preview {
+  position: absolute;
+  width: 892px;
+  height: 422px;
+  left: 120px;
+  top: 122px;
+  z-index: 1;
+}
+
+.destinations {
+  position: absolute;
+  width: 1440px;
+  height: 1042px;
+  left: 0;
+  top: 1189px;
+}
+
+.stories {
+  position: absolute;
+  width: 1440px;
+  height: 1460px;
+  left: 0px;
+  top: 2250px;
+}
+
+.stories-background {
+  position: relative;
+}
+
+.htstor {
+  font-family: 'Aleo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #0D606F;
+}
+
+.pstor {
+  font-family: 'Aleo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+.destination-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  position: relative;
+}
+
+.dplan {
+  position: absolute;
+  top: 20%;
+  right: 20px;
+}
+
+.steps,
+.destinations,
+.stories {
+  text-align: center;
+}
+
+.splan {
+  font-family: 'Red Hat Text', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.bplan {
+  width: 228px;
+  height: 59px;
+  padding: 10px 32px;
+  background: #0D606F;
+  font-family: 'Red Hat Text', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration: none;
+  color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: 2s;
+}
+
+.btfind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #0D606F;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  padding: 10px 32px;
+  width: 228px;
+  height: 59px;
+  margin: 20px auto;
+  transition: 1s;
+}
+
+.btfind p {
+  font-family: 'Red Hat Text', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+input[type=text] {
+  height: 95px;
+  width: 892px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  outline: none;
+  border: none;
+}
+
+input[type=text]::placeholder {
+  font-family: 'Aleo', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F2785C;
+}
+
+.steps {
+  position: absolute;
+  width: 1177px;
+  height: 247px;
+  left: 131px;
+  top: 845px;
+}
+
+.steps-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F2785C;
+  border-radius: 16px;
+  width: 100px;
+  height: 100px;
+}
+
+.item-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 400px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  width: 1440px;
+  z-index: 3;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  list-style: none;
+}
